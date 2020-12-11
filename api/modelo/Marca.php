@@ -2,6 +2,6 @@
 
 class Marca {
 
-    public $Nombre;
+    public $nombre;
 
 }

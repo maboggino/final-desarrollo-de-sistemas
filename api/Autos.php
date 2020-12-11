@@ -6,27 +6,27 @@ require_once "modelo/Auto.php";
 
 $marca = new Marca;
 
-$marca->Nombre = "Ford";
+$marca->nombre = "Ford";
 
 $auto1 = new Auto;
 
-$auto1->Modelo = "Fiesta";
-$auto1->Marca = $marca;
+$auto1->modelo = "Fiesta";
+$auto1->marca = $marca;
 
 $auto2 = new Auto;
 
-$auto2->Modelo = "Ka";
-$auto2->Marca = $marca;
+$auto2->modelo = "Ka";
+$auto2->marca = $marca;
 
 $auto3 = new Auto;
 
-$auto3->Modelo = "Focus";
-$auto3->Marca = $marca;
+$auto3->modelo = "Focus";
+$auto3->marca = $marca;
 
 $auto4 = new Auto;
 
-$auto4->Modelo = "Eco Sport";
-$auto4->Marca = $marca;
+$auto4->modelo = "Eco Sport";
+$auto4->marca = $marca;
 
 $autos=array();
 $autos[]=$auto1;

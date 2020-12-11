@@ -14,17 +14,17 @@
         <br>
         <div class="card">
             <table class="table">
-                <thead>
-                <tr class="card-header">
-                    <th scope="col-3">Modelo</th>
-                    <th scope="col-3">Marca</th>
-                </tr>
+                <thead class="card-header">
+                    <tr>
+                        <th scope="col-3">Modelo</th>
+                        <th scope="col-3">Marca</th>
+                    </tr>
                 </thead>
                 <tbody class="card-body">
-                <tr v-for="auto in listaDeAutos">
-                    <th scope="row">{{auto.Modelo}}</th>
-                    <td>{{auto.Marca.Nombre}}</td>
-                </tr>
+                    <tr v-for="auto in listaDeAutos">
+                        <th scope="row">{{auto.modelo}}</th>
+                        <td>{{auto.marca.nombre}}</td>
+                    </tr>
                 </tbody>
             </table> 
         </div>
